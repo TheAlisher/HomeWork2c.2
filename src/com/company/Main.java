@@ -1,7 +1,5 @@
 package com.company;
 
-import javax.print.DocFlavor;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -40,9 +38,11 @@ public class Main {
             case "2":
                 personal = new BigBoss("Johny", 23, 50_000, "Указывает что делать шефам",
                         300);
+                break;
             case "3":
                 personal = new CompanyDirector("Tommy", 21, 100_000,
                         "Указывает что делать все", 22, 44);
+                break;
         }
 
         return personal;
